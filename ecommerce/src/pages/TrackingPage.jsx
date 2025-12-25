@@ -1,5 +1,5 @@
 import React from "react";
-import "./TrackingPage.css";
+import "./tracking.css";
 import { Header } from "../components/Header";
 
 const TrackingPage = () => {
