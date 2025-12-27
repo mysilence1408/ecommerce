@@ -2,10 +2,10 @@ import React from "react";
 import "./tracking.css";
 import { Header } from "../components/Header";
 
-const TrackingPage = () => {
+const TrackingPage = ({ cart }) => {
   return (
     <>
-      <Header />
+      <Header cart={cart} />
 
       <div className="tracking-page">
         <div className="order-tracking">
