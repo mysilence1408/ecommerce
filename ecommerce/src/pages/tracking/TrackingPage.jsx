@@ -1,6 +1,6 @@
 import React from "react";
 import "./tracking.css";
-import { Header } from "../components/Header";
+import { Header } from "../../components/Header";
 
 const TrackingPage = ({ cart }) => {
   return (
